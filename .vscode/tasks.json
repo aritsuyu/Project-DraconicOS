@@ -1,0 +1,80 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Memory Cleaner (GCC)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-o",
+                "memclean.exe",
+                "memclean.c",
+                "-lpsapi",
+                "-lntdll",
+                "-O2"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Build Memory Cleaner (MSVC)",
+            "type": "shell",
+            "command": "cl",
+            "args": [
+                "memclean.c",
+                "/Fe:memclean.exe",
+                "/link",
+                "psapi.lib",
+                "ntdll.lib",
+                "/O2"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            },
+            "problemMatcher": ["$msCompile"]
+        },
+        {
+            "label": "Run Memory Cleaner",
+            "type": "shell",
+            "command": "${workspaceFolder}/memclean.exe",
+            "args": ["-c"],
+            "group": "test",
+            "dependsOn": "Build Memory Cleaner (GCC)",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Clean Build Files",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "if exist memclean.exe del memclean.exe && if exist memclean.obj del memclean.obj && echo Build files cleaned!"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}
