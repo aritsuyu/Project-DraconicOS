@@ -1,3 +1,4 @@
+# decrapted, new version is coming soon
 import sys
 import winreg
 from PyQt6.QtWidgets import *
