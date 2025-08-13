@@ -18,5 +18,5 @@
 - Created `changelog.md` to document all changes made over time.
 - Preview from a new a Ui
 <div>
-<img src="https://github.com/aritsuyu/Project-DraconicOS/blob/main/lib/img/draconic.png" width="1048"/>
+<img src="https://github.com/aritsuyu/Project-DraconicOS/blob/main/lib/img/preview.png" width="800"/>
 <div>
