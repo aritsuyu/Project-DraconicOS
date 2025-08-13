@@ -1,19 +1,18 @@
 from PIL import Image
 
-# Abre a imagem
-img = Image.open("icone.png").convert("RGBA")
+# Open the image and convert it to RGBA mode
+img = Image.open("icon.png").convert("RGBA")
 pixels = img.getdata()
 
-# Define a nova cor (exemplo: verde vibrante)
-nova_cor = (255, 255, 255)  # RGB 
+# Define the new color (Example: pure white)
+new_color = (255, 255, 255)  # RGB
 
-novos_pixels = []
-for r, g, b, a in pixels:
-    if a > 0:  # Se não for transparente
-        novos_pixels.append((nova_cor[0], nova_cor[1], nova_cor[2], a))
-    else:
-        novos_pixels.append((r, g, b, a))
+# Replace all non-transparent pixels with the new color
+updated_pixels = [
+    (new_color[0], new_color[1], new_color[2], a) if a > 0 else (r, g, b, a)
+    for r, g, b, a in pixels
+]
 
-# Aplica as mudanças
-img.putdata(novos_pixels)
-img.save("icone_verde.png")
+# Apply the changes and save the result
+img.putdata(updated_pixels)
+img.save("icon_white.png")

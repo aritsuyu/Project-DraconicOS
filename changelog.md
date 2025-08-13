@@ -5,6 +5,11 @@
 
 ---
 
+### Day 4 - 12/08/2025
+- Added new `main.py` (this will be the official UI)
+- Moved `os.py` and `themes.py` to the `old` folder
+- Added new profile photo function (you need to add a photo and rename it to `perfil.png`)
+
 ### Day 3 — 12/08/2025
 - Added **MemReduct** in `Engine/Tools`, but it is not working yet.
 - `OS.py` is deprecated (I am creating a new schematic for it).

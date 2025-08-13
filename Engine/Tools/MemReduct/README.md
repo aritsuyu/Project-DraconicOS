@@ -7,5 +7,3 @@ All credit for the original idea and implementation goes to the original author.
 - This version is currently **non-functional**.  
 - No significant graphical/interface changes have been implemented yet.  
 - Execution is not possible at the moment — this is a placeholder for future development.
-
-Once functional, this module will integrate memory cleaning and monitoring features into the main application.
