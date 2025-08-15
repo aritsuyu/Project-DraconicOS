@@ -4,7 +4,7 @@ import winreg
 from PyQt6.QtWidgets import *
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
-from themes import *
+from old.themes import *
 
 class WindowsSettingsApp(QMainWindow):
     def __init__(self):
@@ -372,7 +372,7 @@ def main():
     window = WindowsSettingsApp()
 
     from types import MethodType
-    import themes
+    import old.themes as themes
     window.set_theme = MethodType(themes.set_theme, window)
     window.auto_theme = MethodType(themes.auto_theme, window)
     window.set_accent_color = MethodType(themes.set_accent_color, window)

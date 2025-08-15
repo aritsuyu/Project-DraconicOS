@@ -10,7 +10,7 @@
 ## Memory
 - `mem_help` → Show memory-related commands
 - `mem_clean` → Clean memory cache
-- `mem_delay=<minutes>` → Set mem cleaner delay in minutes *(don’t put values lower than 30)*
+- `mem_delay=<minutes>` → Set mem cleaner delay in minutes *(don’t put values lower than 60)*
 - `mem_above=<percentage>` → Run mem cleaner when RAM usage exceeds the set value
 - **[WARNING]** `mem_fullclear` → Deep memory clean — **NOT RECOMMENDED**
 
