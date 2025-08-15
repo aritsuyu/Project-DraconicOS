@@ -5,6 +5,27 @@
 
 ---
 
+### Day 5 - 14/08/2025
+- Search function in the UI is now working
+- Fixed ghost shadow bug
+- Configuration checkboxes are now symmetrical
+- Fixed CPU leak bug
+- Added process verification for future SteamOS mode
+- Started adding new icons in `Lib/icons`:
+    - [-] Astrea
+    - [ ] Configurations
+    - [ ] Home
+    - [ ] Ethernet
+    - [ ] Performance
+    - [ ] Personalization
+    - [ ] Apps
+    - [ ] Gaming
+    - [ ] Autofixer
+    - [ ] Extras
+    - [ ] Tweaks
+- Added new tool: `iconstransparent.py`
+- Added `requeriments.md`
+
 ### Day 4 - 12/08/2025
 - Added new `main.py` (this will be the official UI)
 - Moved `os.py` and `themes.py` to the `old` folder
