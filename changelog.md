@@ -4,6 +4,25 @@
 </div>
 
 ---
+### Day 6 - 19/08/2025
+##### Im gonna focus on optimizing the main.py now (1000 lines is just too much)
+- Added Virtual Pet prototype in Engine/Chibi
+- Added icon tinter function & icon transparency to main.py (unoptimized)
+- Moved SteamOS.bat to Mode/SteamOS
+- Started adding new icons in Lib/icons/light:
+    - [-] Astrea
+    - [-] Configurations
+    - [-] Home
+    - [-] Ethernet
+    - [-] Performance
+    - [-] Personalization
+    - [ ] Apps
+    - [ ] Gaming
+    - [ ] Autofixer
+    - [ ] Extras
+    - [ ] Tweaks
+##### Its not the final icons
+#### Notes: I code on macOS and some features aren't optimized yet. My main computer is a Windows machine, so once I finish coding here, I will optimize it on Windows.
 
 ### Day 5 - 14/08/2025
 - Search function in the UI is now working
