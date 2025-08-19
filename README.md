@@ -13,13 +13,14 @@ its not done yet
 - Dont have any feature yet
 
 ## Roadmap
-- [ ] Win-Debloat
+- [ ] Win Debloater
+- [ ] GameMode
+- [ ] Astrea AI
 - [ ] MemCleaner
-- [ ] Gaming Mode
-- [ ] Linux-MacOS Like
 - [ ] SteamOS Mode
-- [ ] Auto-Repair
+- [ ] Auto Repair
 - [ ] Wifi-Booster
+- [ ] Linux-MacOS Like
 
 ## Contributors
 
