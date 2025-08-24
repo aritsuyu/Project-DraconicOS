@@ -44,7 +44,7 @@ class MainInterface(QMainWindow):
 
     def setupUI(self):
         """Configura a interface principal"""
-        self.setWindowTitle("Gaming Control Panel")
+        self.setWindowTitle("Draconic Panel")
         self.setGeometry(100, 100, 1200, 800)
         self.setMinimumSize(900, 600)
         self.setStyleSheet("""

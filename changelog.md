@@ -4,12 +4,16 @@
 </div>
 
 ---
-### Day 7 - 20/08/2025
+### Day 8 - 24/08/2025
+<!-- I followed a girl today and she followed me back :) I want to talk to her -->
+- Changed the program name from Gaming Control Panel to Draconic Panel
+- Working on the AsusDIE program, which will kill all ASUS-related processes (bloatware). You can check it in `Engine/Tools/asusDIE.bat`
+- Moved IconTinter, IconTransparency, and ProcessView to `Lib/old/Engine` (these programs are deprecated)
+### Day 7 - 23/08/2025
 <!-- the worst day of my life in this year -->
 - Optimized the entire code
 - Separated the code into modules
 - Fixed some bugs (icon tinter its not fixed yet)
-
 ### Day 6 - 19/08/2025
 ##### Im gonna focus on optimizing the main.py now (1000 lines is just too much)
 - Added Virtual Pet prototype in Engine/Chibi

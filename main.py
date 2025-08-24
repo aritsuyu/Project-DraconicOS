@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Gaming Control Panel - Arquivo Principal
-Ponto de entrada da aplicação
-"""
-
 import sys
 import logging
 from PyQt6.QtWidgets import QApplication
