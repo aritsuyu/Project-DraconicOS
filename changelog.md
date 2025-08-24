@@ -5,7 +5,7 @@
 
 ---
 ### Day 7 - 20/08/2025
-<!-- most sad day in this year -->
+<!-- the worst day of my life in this year -->
 - Optimized the entire code
 - Separated the code into modules
 - Fixed some bugs (icon tinter its not fixed yet)
