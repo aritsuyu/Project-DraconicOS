@@ -4,6 +4,12 @@
 </div>
 
 ---
+### Day 7 - 20/08/2025
+<!-- most sad day in this year -->
+- Optimized the entire code
+- Separated the code into modules
+- Fixed some bugs (icon tinter its not fixed yet)
+
 ### Day 6 - 19/08/2025
 ##### Im gonna focus on optimizing the main.py now (1000 lines is just too much)
 - Added Virtual Pet prototype in Engine/Chibi
