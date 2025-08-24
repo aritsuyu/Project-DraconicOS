@@ -1,16 +1,17 @@
 <div align="center">
   <img src="https://github.com/aritsuyu/Project-DraconicOS/blob/main/lib/img/Draconic.png" width="256"/>
-  <h1 align="center">Project Draconic</h1>
-  Project Draconic is an open-source software designed to optimize, debloat, and enhance your Windows system for better performance and productivity.
+  <h1>Project Draconic</h1>
+  <p>Open-source software to optimize, debloat, and enhance your Windows system for better performance and productivity.</p>
 
-[![release](https://img.shields.io/github/package-json/v/aritsuyu/Project-DraconicOS)](https://github.com/aritsuyu/Project-DraconicOS/releases)
-<div align="center">
-its not done yet
+  [![Release](https://img.shields.io/github/package-json/v/aritsuyu/Project-DraconicOS)](https://github.com/aritsuyu/Project-DraconicOS/releases)
+
+  <p><em> Work in progress – not finished yet</em></p>
 </div>
-</div>
+
+---
 
 ## Features
-- Dont have any feature yet
+- dont have any features yet
 
 ## Roadmap
 - [ ] Win Debloater
@@ -20,7 +21,9 @@ its not done yet
 - [ ] SteamOS Mode
 - [ ] Auto Repair
 - [ ] Wifi-Booster
-- [ ] Linux-MacOS Like
+- [ ] Linux/MacOS-like
+
+---
 
 ## Contributors
 
