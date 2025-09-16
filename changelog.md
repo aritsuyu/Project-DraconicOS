@@ -2,6 +2,8 @@
     <h1 align="center">Changelog</h1>
     <span style="font-size: 20px;">Genesis</span>
 </div>
+
+---
 ### Day none
 - Draconic is back.
 ---
