@@ -2,7 +2,8 @@
     <h1 align="center">Changelog</h1>
     <span style="font-size: 20px;">Genesis</span>
 </div>
-
+### Day none
+- Draconic is back.
 ---
 ### Day 8 - 24/08/2025
 <!-- I followed a girl today and she followed me back :) I want to talk to her -->
