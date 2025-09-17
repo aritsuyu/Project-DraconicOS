@@ -5,7 +5,7 @@
 
   [![Release](https://img.shields.io/github/package-json/v/aritsuyu/Project-DraconicOS)](https://github.com/aritsuyu/Project-DraconicOS/releases)
 
-  <p><em> Work in progress – not finished yet</em></p>
+  <p><em> Work in progress. – not finished yet</em></p>
 </div>
 
 ---
